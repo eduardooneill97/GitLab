@@ -1,4 +1,5 @@
-public class Area{
+import java.util.Scanner;
+public class Main{
 	public static void main(String[]args){
 		Scanner in = new Scanner(System.in);
 		boolean isDone=false;
@@ -8,8 +9,8 @@ public class Area{
 			double area = circleArea(radius);
 			System.out.println("Area: " + area);
 			System.out.println("If you want to exit press -1, otherwise press 1");
-			int continue = in.nextInt();
-			if(continue == -1) isDone = true;
+			int cont = in.nextInt();
+			if(cont == -1) isDone = true;
 		}
 	}
 	
