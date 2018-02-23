@@ -4,8 +4,9 @@ public class Area{
 		boolean isDone=false;
 
 		while(!isDone){
-			int radius = in.nextInt();
-			System.out.println(circleArea(radius);
+			double radius = in.nextInt();
+			double area = circleArea(radius);
+			System.out.println("Area: " + area + "\nHalf Area: " + area/2);
 			System.out.println("If you want to exit press -1, otherwise press 1");
 			int continue = in.nextInt();
 			if(continue == -1) isDone = true;
